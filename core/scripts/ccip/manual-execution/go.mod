@@ -50,10 +50,12 @@ require (
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.39.0 // indirect
 	go.opentelemetry.io/otel/metric v1.39.0 // indirect
-	go.opentelemetry.io/otel/trace v1.39.0 // indirect
+	go.opentelemetry.io/otel/trace v1.39.0 // indirect dependabot/go_modules/go_modules-b8c5454067
+	golang.org/x/exp v0.0.0-20250408133849-7e4ce0ab07d0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
 	golang.org/x/exp v0.0.0-20250408133849-7e4ce0ab07d0 // indirect dependabot/go_modules/go_modules-d598472ed7
 	golang.org/x/sync v0.18.0 // indirect
-	golang.org/x/sync v0.13.0 // indirect develop develop
+	golang.org/x/sync v0.13.0 // indirect develop develop develop
 	golang.org/x/sys v0.40.0 // indirect
 	golang.org/x/sys v0.38.0 // indirect develop
 	golang.org/x/time v0.10.0 // indirect
