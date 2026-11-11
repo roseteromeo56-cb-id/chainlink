@@ -154,7 +154,7 @@ func writeFile(target string, header *tar.Header, tr *tar.Reader) error {
 	}
 	defer f.Close()
 
-	if _, err := io.Copy(f, tr); err != nil {
+	if _, err := io.CopyN(f, tr, 1024); err != nil {
 		return fmt.Errorf("failed to write file: %w", err)
 	}
 	fmt.Println("Creating file", target)
